@@ -19,19 +19,19 @@
 ##############################################################################
 
 {
-    'name': 'Supplier invoice line analytic account update',
-    'summary': "Mass update all lines' analytic account of a single invoice",
-    'version': '12.0.1.3.1',
-    'category': 'Invoicing',
-    'website': 'http://tawasta.fi',
-    'author': 'Tawasta',
-    'license': 'AGPL-3',
-    'application': False,
-    'installable': True,
-    'depends': [
-        'account',
+    "name": "Supplier invoice line analytic account update",
+    "summary": """Mass update all lines" analytic account of a single invoice""",
+    "version": "12.0.1.3.1",
+    "category": "Invoicing",
+    "website": "http://tawasta.fi",
+    "author": "Tawasta",
+    "license": "AGPL-3",
+    "application": False,
+    "installable": True,
+    "depends": [
+        "account",
     ],
-    'data': [
-        'views/account_invoice.xml',
+    "data": [
+        "views/account_invoice.xml",
     ],
 }
