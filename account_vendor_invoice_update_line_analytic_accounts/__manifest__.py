@@ -1,4 +1,3 @@
-
 ##############################################################################
 #
 #    Author: Oy Tawasta OS Technologies Ltd.
@@ -28,17 +27,11 @@
     'author': 'Tawasta',
     'license': 'AGPL-3',
     'application': False,
-    'installable': False,
-    'external_dependencies': {
-        'python': [],
-        'bin': [],
-    },
+    'installable': True,
     'depends': [
         'account',
     ],
     'data': [
         'views/account_invoice.xml',
-    ],
-    'demo': [
     ],
 }
